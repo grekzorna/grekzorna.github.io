@@ -1,4 +1,33 @@
+:root {
+    --lightgreen:  #6b9a71;
+    --green:  #457a5f;
+    --darkgreen:  #244f55;
+    --darkerpurple:  #211729;
+    --darkpurple:  #2b2441;
+    --purple:  #33315d;
+    --grayblue:  #414776;
+    --teal:  #4d80ab;
+    --cyan:  #79b4d5;
+    --skyblue:  #a5d5df;
+    --whitegreen: #e3ecd7;
+    --whiteyellow: #fffef9;
+    --lightpink: #e3c5cf;
+    --lightgray: #b79fbb;
+    --gray: #8e8bb6;
+    --darkgray: #5f6791;
+    --rose: #8d5180;
+    --orange: #b67388;
+    --lightorange: #e1ae98;
+    --yellow: #efdbb3;
+}
+
+@font-face {
+    font-family: 'thing';
+    src: url("upheavtt.ttf");
+}
 body{
-    background-color: red;
+    background-color: var(--darkerpurple);
+    color: var(--gray);
+    font-family: 'thing';
 }
 
