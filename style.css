@@ -24,13 +24,16 @@
 @font-face {
     font-family: 'Upheaval';
     src: url("upheavtt.ttf");
+    
+}
+@font-face {
     font-family: 'Delta Ray';
     src: url("deltaray.ttf");
 }
 body{
     background-color: var(--darkerpurple);
     color: var(--gray);
-    font-family: 'thing';
+    font-family: 'Upheaval';
 }
 section {
     font-family: 'Delta Ray';
